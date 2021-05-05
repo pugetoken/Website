@@ -272,3 +272,14 @@ body {
  -ms-filter: blur(7px);
  filter: blur(7px);
 }
+
+
+@media (max-width: 995px) {
+  .kanban-hide-on-m {
+    visibility: hidden;
+  }
+
+  .kanban-show-on-m {
+    visibility: visible;
+  }
+}
